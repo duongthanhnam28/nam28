@@ -1,7 +1,0 @@
-x = int(input("Nhập số cần tính giai thừa:"))
-x = str(x)  # Chuyển đổi x thành chuỗi
-def fact(x):
-    if x == 0:
-        return 1
-    return x * fact(x - 1)
-print(fact(y))
